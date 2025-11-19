@@ -12,7 +12,6 @@ db.alumnos.insertMany([
   { nombre: "Miguel Soto", edad: 15, grado: 3, grupo: "C" },
   { nombre: "Julia Campos", edad: 15, grado: 3, grupo: "C" }
 ]);
-
 db.profesores.insertMany([
   { nombre: "Roberto García", materia: "Matemáticas", años: 10 },
   { nombre: "Laura Sosa", materia: "Español", años: 8 },
