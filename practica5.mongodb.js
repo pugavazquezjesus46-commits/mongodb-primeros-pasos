@@ -1,6 +1,5 @@
 use("escuelaDB");
 
-
 db.alumnos.find(); 
 db.alumnos.find({ edad: { $gt: 16 } });
 db.alumnos.find({ grupo: "A" });
@@ -11,7 +10,6 @@ db.alumnos.find({ grado: { $gte: 4 } });
 db.alumnos.find({ grupo: { $in: ["A", "B"] } });
 db.alumnos.find({}, { nombre: 1, edad: 1 });
 db.alumnos.find().sort({ edad: -1 });
-
 
 db.profesores.find();
 db.profesores.find({ años: { $gt: 8 } });
