@@ -1,0 +1,10 @@
+[
+  {
+    "_id": {
+      "$oid": "691df9e11cb014d0c490e504"
+    },
+    "titulo": "Mapa Conceptual Revolución",
+    "materia": "Historia",
+    "fechaEntrega": "2025-01-15"
+  }
+]
