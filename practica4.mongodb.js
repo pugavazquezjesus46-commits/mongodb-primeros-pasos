@@ -12,5 +12,6 @@ db.materias.updateOne({ nombre: "Física" }, { $set: { creditos: 4 } });
 db.grupos.updateOne({ nombre: "3C" }, { $set: { alumnos: 27 } });
 db.grupos.updateOne({ nombre: "5B" }, { $set: { tutor: "Nuevo Tutor" } });
 
+
 db.tareas.updateOne({ titulo: "Reporte Laboratorio" }, { $set: { fechaEntrega: "2025-01-28" } });
 db.tareas.updateOne({ titulo: "Dibujo Libre" }, { $set: { materia: "Arte Digital" } });
